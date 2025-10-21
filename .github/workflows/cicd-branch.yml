@@ -7,3 +7,5 @@ on:
 jobs:
   reuse:
     uses: devops-learning-projects/roboshop-github-actions/.github/workflows/cicd-branch.yml@main
+    with:
+      app_type: nginx
